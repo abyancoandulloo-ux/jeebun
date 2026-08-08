@@ -1060,6 +1060,43 @@
             transform: scale(0.97);
         }
 
+        /* --- NEW: EMAIL CONTACT --- */
+        .email-contact {
+            margin-top: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+        }
+
+        .email-contact .email-label {
+            color: rgba(255, 255, 255, 0.40);
+            font-weight: 300;
+            letter-spacing: 0.04em;
+        }
+
+        .email-contact a {
+            color: rgba(255, 255, 255, 0.75);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 215, 140, 0.15);
+            padding-bottom: 0.15rem;
+            transition: color 0.3s ease, border-color 0.3s ease;
+            font-weight: 400;
+        }
+
+        .email-contact a:hover {
+            color: #f5d6a8;
+            border-color: rgba(255, 215, 140, 0.40);
+        }
+
+        .email-contact i {
+            color: #f5d6a8;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
         /* ============================================
                    FOOTER
                    ============================================ */
@@ -1306,6 +1343,7 @@
             "image": "https://airporttransfer-mauritius.com/logo.png",
             "url": "https://airporttransfer-mauritius.com/",
             "telephone": "+23052552773",
+            "email": "Info@mauritiusairporttaxi.com",
             "description": "Premium airport transfer service in Mauritius. Private taxi, family car and minibus transfers from Sir Seewoosagur Ramgoolam International Airport.",
             "address": {
                 "@type": "PostalAddress",
@@ -1754,6 +1792,13 @@
                         <span class="number">5914 9363</span>
                     </span>
                 </a>
+            </div>
+
+            <!-- ===== NEW: EMAIL CONTACT ===== -->
+            <div class="email-contact">
+                <span class="email-label">or send us an email</span>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:Info@mauritiusairporttaxi.com">Info@mauritiusairporttaxi.com</a>
             </div>
         </section>
 
